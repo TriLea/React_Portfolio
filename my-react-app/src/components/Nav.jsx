@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import '../styles/Nav.css';
 
 export default function Nav() {
   return (
-    <nav className=''>
+    <div className=''>
       <div className='toggleBtn'>
         <button></button>
       </div>
@@ -13,6 +14,6 @@ export default function Nav() {
         <Link to="/Portfolio">Portfolio</Link>
         <Link to="/Resume">Resume</Link>
       </ul>;
-    </nav>
+    </div>
   );
 }

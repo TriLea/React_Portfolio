@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Nav />
+        <Nav />  
         <Routes>
           <Route path="/Header" element={<Header />} />
           <Route path="/Nav" element={<Nav />} />
