@@ -1,10 +1,15 @@
+//import icons
+//import githubIcon from "../assets/github.svg";
+
 export default function Footer() 
 {
-    return (
-        <footer className=''>
-        <div className=''>
-            <p>Footer</p>
-        </div>
-        </footer>
-    );
+  return (
+    <div>
+      <div className="footer">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+      </div>
+    </div>
+  )
 }

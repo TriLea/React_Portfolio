@@ -1,3 +1,5 @@
+//add image of self and picture
+
 export default function Header()
 {
     return (
