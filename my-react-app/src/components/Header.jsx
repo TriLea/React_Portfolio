@@ -3,6 +3,11 @@
 //what do i need here?
 // name and picture
 
+
+//path is wrong
+/* <img src={require('./assets/images/tristan_lea_paint_logo.png')} />
+<img src={require('./assets/images/me.png')} /> */
+
 export default function Header()
 {
     return (
@@ -10,8 +15,6 @@ export default function Header()
             <div className=''>
                 <p>Header</p>
                 <h1>Tristan Lea</h1>
-                <img src="C:\Users\trist\bootcamp\React_Portfolio\my-react-app\src\assets\images\tristan_lea_paint_logo.png" ></img>
-                <img src="./assets/images/me.png"></img>
             </div>
         </header>
     );

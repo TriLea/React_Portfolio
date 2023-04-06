@@ -1,8 +1,15 @@
+//import  ""; //styles
 
-//for making project cards
+
+
 export default function Projects()
 {
-    return (
-        <h1>Project collection</h1>
+    //inside the portfolio section i need to iterate through projects
+    // and the card creation will be for the project item
+
+    return(
+        <section className="portfolio">
+            
+        </section>
     );
 }

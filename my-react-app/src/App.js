@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Portfolio from './Pages/ProjectItem';
 import Resume from './Pages/Resume';
 import AboutMe from './Pages/AboutMe';
+import Contact from './Pages/Contact';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route exact path="/" element={<AboutMe />} />
             <Route exact path="/Nav" element={<Nav />} />
             <Route exact path="/Portfolio" element={<Portfolio />} />
+            <Route exact path="/Contact" element={<Contact />} />
             <Route exact path="/Resume" element={<Resume />} />
           </Routes>
         <Footer />
