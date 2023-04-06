@@ -1,6 +1,8 @@
 //import  ""; //styles
 
-
+//basically nulled by the use of .map in the projectItem.jsx file
+// of which creates the cards for the portfolio section with need for
+// this file
 
 export default function Projects()
 {

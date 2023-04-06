@@ -11,6 +11,13 @@ export default function Portfolio()
            cardImg: ''
         },
         {
+            title: 'template2',
+            description: 'template description',
+            repoLink: 'repo link',
+            deployedLink: 'deployed link',
+            cardImg: ''
+        },
+        {
             title: '',
            description: '',
            repoLink: '',
