@@ -1,3 +1,5 @@
+import "../assets/styles/Contact.css"
+
 export default function Contact() 
 {
     return(

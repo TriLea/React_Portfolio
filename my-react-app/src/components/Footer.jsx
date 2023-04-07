@@ -4,6 +4,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiIndeed } from 'react-icons/si';
 //import indeedIcon from "../assets/images/indeed.png";
 
+import "../assets/styles/Footer.css"
+
 export default function Footer() 
 {
   return (

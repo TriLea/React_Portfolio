@@ -1,3 +1,5 @@
+import "../assets/styles/AboutMe.css"
+
 export default function AboutMe() 
 {
     return(

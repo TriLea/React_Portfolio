@@ -1,4 +1,4 @@
-//import '../../styles/Resume.css';
+import '../assets/styles/Resume.css';
 
 export default function Resume() 
 {

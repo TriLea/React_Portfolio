@@ -1,7 +1,10 @@
-//import '../styles/Nav.css';
+import '../assets/styles/Nav.css';
 import { Link, useLocation } from "react-router-dom";
+
 //for creating a hide button for the nav bar
-import IoReorderTwo from "react-icons/io5";
+//may mess with more later
+//import IoReorderTwo from "react-icons/io5";
+
 export default function Nav() {
 
   return (

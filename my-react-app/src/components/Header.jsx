@@ -8,6 +8,8 @@
 /* <img src={require('./assets/images/tristan_lea_paint_logo.png')} />
 <img src={require('./assets/images/me.png')} /> */
 
+import "../assets/styles/Header.css"
+
 export default function Header()
 {
     return (

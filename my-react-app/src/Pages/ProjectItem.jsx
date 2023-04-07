@@ -1,30 +1,11 @@
+import projectList from "../helpers/ProjectList";
+import "../assets/styles/Portfolio.css" //structure is a little messed up
 
 //for making project cards
 export default function Portfolio()
 {
-    const cards = [
-        {
-           title: 'template',
-           description: 'template description',
-           repoLink: 'repo link',
-           deployedLink: 'deployed link',
-           cardImg: ''
-        },
-        {
-            title: 'template2',
-            description: 'template description',
-            repoLink: 'repo link',
-            deployedLink: 'deployed link',
-            cardImg: ''
-        },
-        {
-            title: '',
-           description: '',
-           repoLink: '',
-           deployedLink: '',
-           cardImg: ''
-        }
-    ]
+
+    const cards = projectList;
 
     return (
 
